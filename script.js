@@ -12,6 +12,6 @@ togle.style.display = "block";
 
 let converted = minute.value * 60;
 
-display.innerHTML = ${minute.value} minute is: ${converted} second ;
+display.innerHTML = minute.value + " minute is: " + converted + " seconds";
 
 });
