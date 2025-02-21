@@ -3,10 +3,14 @@ const minute = document.getElementById("minute");
 const display = document.getElementById("demo");
 
 const togle = document.querySelector(".display");
+const togle1 = document.querySelector(".error");
 
 const btn = document.querySelector("button");
 
 btn.addEventListener("click", function minuteConvertor() {
+if(minute.value < 0){
+togle1.style.display = "block";
+}
 
 togle.style.display = "block";
 
