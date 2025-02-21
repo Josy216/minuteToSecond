@@ -36,12 +36,7 @@ button {
   font-size: 1.4rem;
   padding: 12px;
   margin: 10px;
-}
-.error {display:none;
-  border: 2px solid red;
-  color: red;
-  font-weight: bold;
-}
+}
 @media (max-width: 900px) {
   .container,
   input,
