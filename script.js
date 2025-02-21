@@ -10,7 +10,7 @@ btn.addEventListener("click", function minuteConvertor() {
 
 togle.style.display = "block";
 
-let converted = minute.value * 60;
+let converted = minute.value * 60
 
 display.innerHTML = minute.value + " minute is: " + converted + " seconds";
 
