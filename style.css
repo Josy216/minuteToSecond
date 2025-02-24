@@ -37,7 +37,7 @@ button {
   padding: 12px;
   margin: 10px;
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .container,
   input,
   button {
